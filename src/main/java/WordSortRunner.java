@@ -10,6 +10,9 @@ public class WordSortRunner
 	public static void main(String args[])
 	{
 		WordSort ws = new WordSort("abc ABC 12321 fred alexander");
+		String[] array = ws.sort();
+		System.out.println(array);
+		
 		//...
 		
 		

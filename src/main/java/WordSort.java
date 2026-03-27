@@ -21,11 +21,12 @@ public class WordSort
 
 	public void sort()
 	{
+		arrays.sort( wordRay);
 	}
 
 	public String toString( )
 	{
-		String output="";
-		return output+"\n\n";
+		String output= "";
+		return output;
 	}
 }
