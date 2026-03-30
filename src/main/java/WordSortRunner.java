@@ -1,17 +1,17 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name -
+//Name - Cody Warnick
 
 import java.util.Arrays;
-import static java.lang.System.*; 
+import static java.lang.System.*;
 
 public class WordSortRunner
 {
 	public static void main(String args[])
 	{
 		WordSort ws = new WordSort("abc ABC 12321 fred alexander");
-		String[] array = ws.sort();
-		System.out.println(array);
+		ws.sort();
+		System.out.println(ws.toString());
 		
 		//...
 		
